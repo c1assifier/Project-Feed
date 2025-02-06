@@ -1,0 +1,131 @@
+.feeditem {
+    width: 600px;
+    border-radius: 25px;
+    /* background-color: var(--gray-757); */
+    background-color: var(--post-color);
+    box-shadow: 15px 10px 15px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .top p {
+    color: var(--text-color);
+  }
+
+  .top h3 {
+    color: var(--text-color);
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .textLeft {
+    text-align: left;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .textLeft {
+    color: var(--text-color);
+  }
+  
+  .textCenter {
+    text-align: left;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: var(--text-color);
+  }
+  
+  .seeMoreButton {
+    background: none;
+    color: var(--see-more-color);
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 0 0 5px;
+  }
+  
+  .img {
+    max-width: 300px;
+    pointer-events: none;
+  }
+  
+  /* --- Styles for Post (используются и в PostId) --- */
+  .postItem {
+    display: flex;
+    height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  hr {
+    border: none;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .viewPostButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background: none;
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .viewPostButton:hover {
+    color: var(--text-color-hover);
+  }
+  
+  .backPostButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
+    background-color: var(--gray-353);
+    color: var(--white);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .backPostButton:hover {
+    background-color: var(--gray-424);
+  }
+  
+  .deleteButton {
+    margin: 5px 0 0 10px;
+    font-size: 23px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  

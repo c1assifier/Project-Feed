@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    --white: #ffffff;
+    --see-more-color: blue;                /* «see more» в FeedItem */
+
+    /* Цвет «сердечка» (LikeButton) */
+    --like-button-color: red;
+  
+    /* Отступы, размеры шрифта, тени */
+    --font-size-base: 16px;
+    --spacing-base: 8px;
+  
+    /* Фоны для инпутов (по умолчанию - тема light) */
+    --input-background-color: #525252;
+    --input-color: #ffffff;
+  }
+
+  /* 
+    ! Все важные стили, отвечающие за сменяющиеся цвета находятся в папке ThemeSwitcher
+    * Тут я пострался собрать часто встречающиеся
+  */
+  

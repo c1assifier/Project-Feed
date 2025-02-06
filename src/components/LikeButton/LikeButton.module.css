@@ -1,0 +1,19 @@
+.like {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 35px;
+    line-height: 0;
+    color: var(--like-button-color);
+    padding: 0;
+  }
+  
+  .likeComponent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 0 10px;
+    color: var(--text-color);
+  }
+  

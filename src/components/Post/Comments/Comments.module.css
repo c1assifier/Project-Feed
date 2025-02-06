@@ -1,0 +1,126 @@
+.comments {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.comments h4 {
+  color: var(--text-color);
+  margin: 0;
+}
+
+.commentsList {
+  list-style-type: none;
+  padding: 0;
+  overflow-wrap: break-word;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.commentsList li:not(.noComments) {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 15px;
+  background-color: var(--comment-color);
+  box-shadow: 15px 10px 15px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+}
+
+.commentContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.commentInfo {
+  flex-grow: 1;
+}
+
+.commentName {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.commentText {
+  word-wrap: break-word;
+  color: var(--text-color);
+}
+
+.deleteButton {
+  margin: 5px 0 0 10px;
+  font-size: 23px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--trash-icon-comment-color);
+}
+
+.deleteButton:hover {
+  color: var(--trash-icon-color-comment-hover);
+}
+
+.addButton {
+  width: 20%;
+  height: 25px;
+  background: none;
+  cursor: pointer;
+  background-color: var(--add_create-button-color);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.addButton:hover {
+  background-color: var(--add_create-button-hover-color);
+  color: var(--white); 
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form textarea {
+  width: 99%;
+  height: 100px;
+  border-radius: 5px;
+  padding: 5px 0 0 10px;
+  border: none;
+  outline: none;
+  background-color: var(--input-background-color);
+  color: var(--input-color);
+}
+
+.form input {
+  width: 99%;
+  height: 25px;
+  padding: 0 0 0 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: var(--input-background-color);
+  color: var(--input-color);
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--input-color);
+}
+
+.noComments {
+  text-align: center;
+  background: none;
+  border: none;
+  padding: 10px 10px;
+  color: var(--text-color);
+}
