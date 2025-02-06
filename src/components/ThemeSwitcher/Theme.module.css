@@ -1,0 +1,63 @@
+:global(body[data-theme='light']) {
+  /* --background-color: #f5f5f5;  */
+  --background-color: #efefef; 
+  --post-color: #b7b7b7;
+  --comment-color: #898989c8;
+
+  --icon-button-color: #000000;
+  --icon-button-trash-color: #000;
+  --icon-button-trash-hover: red;
+
+  --add_create-button-color: #525252;
+  --add_create-button-hover-color: #2c2c2c; /* Также тут стили и для кнопки "load more", и также "back button*/
+  --add_create-button-text-color: white;
+
+  --input-background-color: #525252;
+  --input-color: #ffffff;
+  
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  
+  --text-color: #000000;
+  --text-color-hover: red;
+}
+
+:global(body[data-theme='dark']) {
+  /* --background-color: #24293E;  */
+  --background-color: #21263eee; 
+  --post-color: #4E586E;
+  --comment-color: #6A7186;
+  
+  --icon-button-color: #fff; /* Белый цвет для темной темы */
+  --icon-button-trash-color: #000;
+  --icon-button-trash-hover: red;
+
+  --add_create-button-color: #d8323dd9;
+  --add_create-button-hover-color: #ff6d4c;
+  --add_create-button-text-color: white;
+
+  --input-background-color: #F4F5FC;
+  --input-color: #000000;
+
+  --shadow-color: rgba(255, 255, 255, 0.5); 
+
+  --text-color: #F4F5FC;
+  --text-color-hover: #d8323d;
+}
+
+:global(body) {
+  --trash-icon-comment-color: black;
+  --trash-icon-color-comment-hover: white;
+  background-color: var(--background-color); 
+  transition: background-color 0.6s ease, color 0.6s ease; 
+}
+
+.switcher {
+  margin: 0 0 5px;
+}
+
+.iconButton {
+  color: var(--icon-button-color);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
